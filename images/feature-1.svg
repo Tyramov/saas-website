@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="341 1321 287.612 287.612">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff9090;
+      }
+
+      .cls-2 {
+        fill: #afafaf;
+      }
+
+      .cls-3 {
+        fill: #fff5ef;
+      }
+
+      .cls-4 {
+        fill: #dedede;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_2_1" data-name="Symbol 2 – 1" transform="translate(29 -73)">
+    <g id="Group_4" data-name="Group 4" transform="translate(596 1932)">
+      <rect id="Rectangle_259" data-name="Rectangle 259" class="cls-1" width="287.612" height="287.612" rx="43" transform="translate(-284 -538)"/>
+      <rect id="Rectangle_270" data-name="Rectangle 270" class="cls-2" width="66.264" height="66.264" rx="33.132" transform="translate(-112.621 -427.554)"/>
+      <rect id="Rectangle_271" data-name="Rectangle 271" class="cls-3" width="40.264" height="40.264" rx="20.132" transform="translate(-99.621 -414.554)"/>
+    </g>
+    <g id="Group_6" data-name="Group 6">
+      <rect id="Rectangle_267" data-name="Rectangle 267" class="cls-3" width="48" height="48" rx="24" transform="translate(358 1447)"/>
+      <rect id="Rectangle_268" data-name="Rectangle 268" class="cls-3" width="48" height="48" rx="24" transform="translate(358 1587)"/>
+      <rect id="Rectangle_269" data-name="Rectangle 269" class="cls-4" width="22" height="170" rx="11" transform="translate(371 1456)"/>
+    </g>
+  </g>
+</svg>
