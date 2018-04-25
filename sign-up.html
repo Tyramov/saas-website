@@ -7,13 +7,14 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>SAAS website</title>
+  <title>Lock Solid Sign-up</title>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
-<header class="masthead island push-0">
+<header class="masthead island push-2">
   <div class="grid grid-middle">
     <div class="unit s-1-3">
-      <img class="flex" src="images/lock-solid-logo.svg" alt="">
+      <span class="brand-name gutter-1-4 bold">Lock-Solid</span>
+      <img class="header-logo unit-content-center" src="images/lock-solid-logo.svg" alt="">
     </div>
     <nav class="nav unit s-2-3">
       <ul class="list-group-inline mega">
@@ -21,31 +22,57 @@
           <a class="nav-link" href="login">Login</a>
         </li>
         <li class="list-group-item push-r-1-2">
-          <a class="nav-link" href="tour">Tour<a/>
+          <a class="nav-link" href="tour.html">Tour</a>
         </li>
         <li class="list-group-item push-r-1-2">
-          <a class="nav-link" href="sign-up">Sign-up</a>
+          <a class="nav-link" href="sign-up.html">Sign-up</a>
         </li>
         <li class="list-group-item push-r-1-2">
-          <a class="nav-link" href="pricing">Pricing</a>
+          <a class="nav-link" href="pricing.html">Pricing</a>
         </li>
       </ul>
     </nav>
   </div>
 </header>
 <body>
-  <div class="banner grid grid-middle island-double">
-    <div class="unit island banner-logo s-1-3">
+  <div class=" grid sign-form">
+    <div class="unit unit-offset-m-1-4 banner-logo m-1-4">
       <img class="logo-flex" src="images/lock-solid-logo.svg" alt="">
+      <span class="brand-name gutter-1-2 bold nina">Lock-Solid</span>
     </div>
-    <div class="unit island s-2-3">
-      <h1 class="banner-title">Keep your data safe with us
-    at <span class="brand-name">Lock-Solid</span>.</h1>
-      <p class="value_prop">We make secure cloud storage simple. Create an account
-    and get 50 GB free on Lock-Solid’s end-to-end encrypted
-    cloud collaboration platform today!</p>
-    </div>
+    <section class="unit sign-up s-1-3">
+      <div class="max-length">
+        <form class="push-0" method="POST" action="https://formspree.io/me@me.com">
+          <div class="push">
+            <label for="firstname">First Name</label>
+            <input id="firstname" name="firstname" required>
+          </div>
+          <div class="push">
+            <label for="lastname">Last Name</label>
+            <input id="lastname" name="lastname" required>
+          </div>
+          <div class="push">
+            <label for="username">Username</label>
+            <input id="username" name="username" required>
+          </div>
+          <div class="push">
+            <label for="password">Password</label>
+            <input id="password" name="password" required>
+          </div>
+          <div class="push">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="@" name="email" required>
+          </div>
+          <div class="checkbox milli">
+            <input type="checkbox" id="acceptterms" name="terms" value="terms">
+            <label for="acceptterms">Read and accepted terms of service of Lock-Solid</label>
+          </div>
+          <div class="island">
+            <button class="btn btn-light mega" type="submit">Create an account</button>
+          </div>
+        </form>
+      </div>
+    </section>
   </div>
-
 </body>
 </html>

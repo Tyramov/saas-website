@@ -4,13 +4,22 @@ html {
   font-family: "Lato", sans-serif;
   color: #707070;
 }
-
+/* body copy tags*/
 .banner-copy {
   max-width: 510px;
 }
 
-.flex {
+.feature-copy {
+  max-width: 500px;
+}
+/* images and logos tags*/
+.header-logo {
   max-width: 96px;
+  margin: 0;
+}
+
+.comp-logo {
+  max-width: 32px;
   margin: 0;
 }
 
@@ -19,8 +28,21 @@ html {
   margin: 0;
 }
 
+.feature-logo {
+  max-width: 200px;
+  margin: 0;
+}
+
+.feature-title {
+    color: #FF9090;
+}
+
 .brand-name {
   color: #FF9090;
+}
+.compatibility-list {
+  border-bottom: 6px solid #FF9090;
+  border-top: 6px solid #FF9090;
 }
 
 .nav {
@@ -31,3 +53,23 @@ html {
   text-decoration: none;
   color: #707070;
 }
+
+.btn {
+  background-color: #FF9090;
+  color: #00000;
+  border-radius: 12px;
+  border: 0;
+}
+
+.btn:hover {
+  background-color: #DEDEDE;
+  color: #FF9090;
+}
+
+input {
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 25em) {
+
+  }
