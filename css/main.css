@@ -17,7 +17,7 @@ html {
   max-width: 650px;
   background-color: #DEDEDE;
   border-radius: 18px;
-  border-bottom: 6px solid #FF9090;
+  border-bottom: 6px solid #E51C1C;
 }
 /* images and logos tags*/
 .header-logo {
@@ -41,20 +41,24 @@ html {
 }
 
 .plan-img {
-  max-width: 250px
+  max-width: 200px
+}
+
+.plan-img-plus {
+  max-width: 160px
 }
 /* theme elements*/
 .feature-title {
-    color: #FF9090;
+    color: #E51C1C;
 }
 
 .brand-name {
-  color: #FF9090;
+  color: #E51C1C;
 }
 
 .compatibility-list {
-  border-bottom: 6px solid #FF9090;
-  border-top: 6px solid #FF9090;
+  border-bottom: 6px solid #E51C1C;
+  border-top: 6px solid #E51C1C;
 }
 
 .nav {
@@ -66,8 +70,12 @@ html {
   color: #707070;
 }
 
+.nav-link:hover {
+  color: #E51C1C;
+}
+
 .btn {
-  background-color: #FF9090;
+  background-color: #E51C1C;
   color: #00000;
   border-radius: 12px;
   border: 0;
@@ -75,7 +83,7 @@ html {
 
 .btn:hover {
   background-color: #DEDEDE;
-  color: #FF9090;
+  color: #E51C1C;
 }
 
 input {
@@ -83,11 +91,38 @@ input {
 }
 
 .faq {
-  background-color: #FF9090;
+  background-color: #E51C1C;
 }
 
 .faq-title {
   color; #00000;
+}
+
+.checkmark {
+    display:inline-block;
+    width: 22px;
+    height:22px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.checkmark_stem {
+    position: absolute;
+    width:6px;
+    height:12px;
+    background-color:#E51C1C;
+    left:11px;
+    top:6px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width:6px;
+    height:6px;
+    background-color:#E51C1C;
+    left:8px;
+    top:12px;
 }
 
 @media only screen and (min-width: 25em) {
